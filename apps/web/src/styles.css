@@ -1,0 +1,9 @@
+body { font-family: Arial, sans-serif; background:#0f172a; color:#e2e8f0; margin:0; }
+.container { max-width: 1000px; margin: 0 auto; padding: 16px; }
+input,button { margin:4px; padding:8px; border-radius:8px; border:1px solid #475569; }
+button { cursor: pointer; background:#1e293b; color:white; }
+.seats { display:grid; grid-template-columns: repeat(4,1fr); gap:8px; margin:12px 0; }
+.seat { min-height:70px; }
+.board, .actions, .chat { margin: 10px 0; }
+pre { background:#111827; padding:12px; border-radius:8px; max-height:220px; overflow:auto; }
+.error { color:#fca5a5; }

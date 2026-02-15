@@ -1,0 +1,14 @@
+{
+  "name": "@poker/shared",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -p tsconfig.json --watch",
+    "test": "echo 'no tests in shared'",
+    "lint": "echo 'lint handled upstream'",
+    "format": "echo 'format handled upstream'"
+  }
+}
